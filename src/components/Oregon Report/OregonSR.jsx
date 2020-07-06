@@ -3,7 +3,7 @@ import React from 'react';
 const OregonSR = () => {
   return (
     <>
-      Oregon Surf Report
+      Oregon Marine Weather
     </>
   );
 };
