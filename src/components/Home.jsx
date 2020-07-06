@@ -15,7 +15,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="under-construction">Williwaw is Under Construction</div>
+      <div className="under-construction">Williwaw is under construction.</div>
       <img src="./tsunami-evacuation.jpg"/>
       {/* <Link to="/oregon-surf-report">Oregon Surf Report</Link><br/>
       <Link to="/washington-surf-report">Washington Surf Report</Link>; */}
