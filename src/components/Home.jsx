@@ -1,12 +1,22 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
+
 
 const Home = () => {
 
+  // const oregonSurfReport = () => {
+  //   <Link to="/oregon-surf-report">Oregon Surf Report</Link>;
+  // };
+
+  // const washingtonSurfReport = () => {
+  //   <Link to="/washington-surf-report">Oregon Surf Report</Link>;
+  //   console.log(washingtonSurfReport, 'hey');
+  // };
+
   return (
     <>
-      <button>Oregon Surf Information</button>
-      <button>Washington Surf Information</button>
+      <Link to="/oregon-surf-report">Oregon Surf Report</Link>
+      <Link to="/washington-surf-report">Oregon Surf Report</Link>;
     </>
   );
 };
