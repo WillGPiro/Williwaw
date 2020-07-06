@@ -15,8 +15,8 @@ const Home = () => {
 
   return (
     <>
-      <Link to="/oregon-surf-report">Oregon Surf Report</Link>
-      <Link to="/washington-surf-report">Oregon Surf Report</Link>;
+      <Link to="/oregon-surf-report">Oregon Surf Report</Link><br/>
+      <Link to="/washington-surf-report">Washington Surf Report</Link>;
     </>
   );
 };
