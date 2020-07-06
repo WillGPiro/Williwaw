@@ -15,8 +15,10 @@ const Home = () => {
 
   return (
     <>
-      <Link to="/oregon-surf-report">Oregon Surf Report</Link><br/>
-      <Link to="/washington-surf-report">Washington Surf Report</Link>;
+      <div className="under-construction">Williwaw is Under Construction</div>
+      <img src="./tsunami-evacuation.jpg"/>
+      {/* <Link to="/oregon-surf-report">Oregon Surf Report</Link><br/>
+      <Link to="/washington-surf-report">Washington Surf Report</Link>; */}
     </>
   );
 };
