@@ -33,6 +33,11 @@ class App extends Component {
     popupAnchor:  [0, -41],
   })
 
+  attributions = {
+    flaticon: <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>,
+    openstreetmap: <a href="http://osm.org/copyright">OpenStreetMap</a>
+  }
+
   render(){
     const positionSeasideCove = [this.state.seasideCove.lat, this.state.seasideCove.lng];
     const positionLaPush = [this.state.laPush.lat, this.state.laPush.lng];
@@ -43,6 +48,10 @@ class App extends Component {
           attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
+        <TileLayer
+          attribution='Icons by &amp;copy <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> '
+          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        />
         <Marker position={positionSeasideCove} icon={this.seasideCoveIcon}>
           <Popup>
                 Seaside Cove
@@ -50,11 +59,9 @@ class App extends Component {
         </Marker>
         <Marker position={positionLaPush} icon={this.laPushIcon}>
           <Popup>
-                La Push Cove
+                La Push Cove  
           </Popup>
         </Marker>
-
-        <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
       </Map>
     );
   }
