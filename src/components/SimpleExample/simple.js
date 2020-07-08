@@ -79,7 +79,7 @@ export default class SimpleExample extends Component {
 
             <Marker position={position}>
               <Popup>
-                A pretty CSS3 popup. <br /> Easily customizable.
+                Seaside Cove
               </Popup>
             </Marker>
           </React.Fragment>
