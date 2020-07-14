@@ -1,0 +1,11 @@
+.WashingtonSRList {
+  display: flex;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-evenly;
+  
+  li {
+    width: 25vw;
+    list-style-type: none;
+    padding: 5px 5px 5px 5px;
+  }
+}

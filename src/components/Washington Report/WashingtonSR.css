@@ -1,1 +1,8 @@
-#mapid { height: 180px; }
+.WashingtonSR{
+  background-color: grey;
+  border: black 10px;
+
+  h3 {
+    text-align: center;
+  }
+}
